@@ -1,5 +1,5 @@
 #Yii2 Remote Modal
-by cenotia
+by dan8551
 
 This extension enables the use of several types of modals in a simplify way and using ajax.
 
@@ -8,7 +8,7 @@ In order to add it to your project you have to download the archive or use the c
 In your composer.json file add the following line :
 
 
-``"cenotia/yii2-remote-modal":"*"``
+``"dan8551/yii2-remote-modal":"*"``
 
 and run 
 `composer update`
@@ -36,7 +36,7 @@ in your controller's actions (that you want to display in a modal), add the foll
 
 At the beginning of your file
 
-	use cenotia\components\modal\RemoteModal;
+	use dan8551\components\modal\RemoteModal;
 
 
 The calling link would be

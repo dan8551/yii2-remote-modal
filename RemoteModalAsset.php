@@ -1,6 +1,6 @@
 <?php
 
-namespace cenotia\components\modal;
+namespace dan8551\components\modal;
 
 use Yii;
 use yii\web\AssetBundle;
