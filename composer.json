@@ -1,15 +1,15 @@
 {
-    "name": "cenotia/yii2-remote-modal",
+    "name": "dan8551/yii2-remote-modal",
     "description": "Yii2 Remote Modal",
-    "keywords": ["yii2", "modal", "bootstrap"],
-    "homepage": "https://github.com/cenotia/yii2-remote-modal",
+    "keywords": ["yii2", "modal", "bootstrap4"],
+    "homepage": "https://github.com/dan8551/yii2-remote-modal",
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "authors": [
         {
-            "name": "Pierre Lenaerts",
-            "email": "pierre@cenotia.com",
-            "homepage": "https://github.com/cenotia/"
+            "name": "Daniel Orton",
+            "email": "dan.orton84@gmail.com",
+            "homepage": "https://github.com/dan8551/yii2-remote-modal"
         }
     ],
     "minimum-stability": "stable",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "cenotia\\components\\modal\\": ""
+            "dan8551\\components\\modal\\": ""
         }
     }
 }
