@@ -4,7 +4,7 @@
     "keywords": ["yii2", "modal", "bootstrap4"],
     "homepage": "https://github.com/dan8551/yii2-remote-modal",
     "type": "yii2-extension",
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Daniel Orton",
