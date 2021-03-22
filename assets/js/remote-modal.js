@@ -24,7 +24,7 @@ function RemoteModal(modalId) {
 
     this.dialog = $(modalId).find('.modal-dialog');
 
-    this.header = $(modalId).find('.modal-header');
+//    this.header = $(modalId).find('.modal-header');
 
     this.content = $(modalId).find('.modal-body');
 
@@ -62,21 +62,6 @@ function RemoteModal(modalId) {
         $(this.modal).find('.modal-title').remove();
         $(this.content).html("");
         $(this.footer).html("");
-    };
-
-    /**
-     * Set size of modal
-     * @param {string} size large/normal/small
-     */
-    this.setSize = function (size) {
-        $(this.dialog).removeClass('modal-lg');
-        $(this.dialog).removeClass('modal-sm');
-        if (size == 'large')
-            $(this.dialog).addClass('modal-lg');
-        else if (size == 'small')
-            $(this.dialog).addClass('modal-sm');
-        else if (size !== 'normal')
-            console.warn("Undefined size " + size);
     };
 
     /**
@@ -417,7 +402,7 @@ function RemoteModal(modalId) {
             )
         } else {
             this.doRemote(
-                $(elm).hasAttr('href') ? $(elm).attr('href') : $(elm).attr('data-url'),
+                $(elm).hasAttr('data-url') ? $(elm).attr('data-url') : $(elm).attr('data-url'),
                 $(elm).hasAttr('data-request-method') ? $(elm).attr('data-request-method') : 'GET',
                 bulkData
             );
